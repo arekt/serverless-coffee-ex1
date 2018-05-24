@@ -11,7 +11,9 @@
     "coffee-loader": "^0.9.0",
     "coffeescript": "^2.3.0",
     "serverless-webpack": "^5.1.5",
-    "webpack": "^4.8.3",
-    "webpack-node-externals": "^1.7.2"
+    "webpack": "^4.8.3"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0"
   }
 }

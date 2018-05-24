@@ -1,6 +1,5 @@
 /*eslint-disable */
 var webpack = require('webpack')
-var nodeExternals = require('webpack-node-externals')
 const slsw = require('serverless-webpack')
 
 module.exports = {
@@ -20,8 +19,5 @@ module.exports = {
       }
     ]
   },
-  externals: [
-    {'aws-sdk': 'aws-sdk'},
-    nodeExternals()
-  ]
+  externals: []
 }
