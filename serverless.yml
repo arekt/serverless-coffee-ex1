@@ -1,0 +1,16 @@
+service: serverless-coffee-ex1
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+custom:
+  webpack:
+    webpackConfig: 'webpack.config.js'
+
+plugins:
+  - 'serverless-webpack'
+
+functions:
+  hello:
+    handler: src/handler.hello
